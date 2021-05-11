@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8625545135619713216
+--- !u!114 &-1284872623441207630
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: WaterSweep
-  m_Shader: {fileID: -6465566751694194690, guid: ed6ce33bbe94a0e4b87f98869e01c5c3, type: 3}
+  m_Name: Ripple
+  m_Shader: {fileID: -6465566751694194690, guid: adb83ff5809e9be4d841d63427cde984, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -32,6 +32,14 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_5e5578c592684fa98e8d998c48098da8:
+        m_Texture: {fileID: 2800000, guid: 9a88b23a949575f4a82432bcf1eeb0da, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_8c28bc7b64884eeeaf7d23542d1dce11:
+        m_Texture: {fileID: 2800000, guid: 1830231e7113ecd4da78178461f54c3e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -89,39 +97,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_03df4e9201c746ee9ed5d30501086f3b: 0.21
-    - Vector1_04cf56cb93b7436196b975c58bbe2074: 0.201
-    - Vector1_0809549583884c1981fe491141753637: 20
-    - Vector1_08c21957459f4352b5be96556e0a0b37: -0
-    - Vector1_0fc32fe54df44c6e8742252c8aa877e2: 0.0217
-    - Vector1_1df71d7ee1024c998e360d6be5e5ff68: 7
-    - Vector1_2c6cacff646242e2b744c9abdfa383d7: 8.7
-    - Vector1_30cbaebaa5c6472fab4c4a5bf60d6588: 8.29
-    - Vector1_34ce6f95572b476eb9914bec2e643462: 12.7
-    - Vector1_34eb9064738c49cd81698fa165a4d41d: 5
-    - Vector1_3ddee48ced6f46f2a3e04b01a972904b: 15
-    - Vector1_4f1205373dd741dbb5dda75009769894: 0
-    - Vector1_562530abc791400998b106a749e7f74d: 5
-    - Vector1_5b98242b75334ac9800a10270932edbb: 3.66
-    - Vector1_6090896a3dce4fabb74466a01238f599: 0.09
-    - Vector1_6bc4035442e746a2aa2d54381cf331c5: 0
-    - Vector1_81a84345fa1440eab82c49ac96732662: 0.326
-    - Vector1_982dce37d3d3441fa2152c736296d83a: 0.0284
-    - Vector1_9d75d60e121041869c7051c9971ef078: 0.0167
-    - Vector1_b753fd2f99854cc5b6fde569f7ac8905: 2
-    - Vector1_c82bc9e71aab4da5865fa5505080180a: 1
-    - Vector1_cf47bd85455d4ae7bc84029b20c8e3b5: 0.244
-    - Vector1_d14c4b5615b74526a66409d916bb6120: 10
-    - Vector1_d1b4211b84dd452c83aefb8dbbce4a0f: 1
-    - Vector1_d357ad795aca4ba490c92f5deb513cc7: 0.15
-    - Vector1_d89947598c1b45dda550b737e13a6782: 20
-    - Vector1_da0777a1429f4f21b41b289d0511db17: 20
-    - Vector1_e25e1c7ffa884abc823ef1e6af3db8af: 0.25
-    - Vector1_eda17786e6ab4572b44d52c2acf60301: 2
-    - Vector1_edfbe1acec8f4ece85cfa12c865e01db: 0.25
-    - Vector1_ee631ab0789b4e699d68745272d3a271: 2.5
-    - Vector1_f4d2a25345b9416491f1d1046a2869a2: 0
-    - Vector1_fe1e28b99f964ceaad00f5f2036d5417: 20
+    - Vector1_1195cd240d9d4057b95e831c0f881c98: 24.12
+    - Vector1_3724c811c53d4bf3a16653a1df69f397: 2.45
+    - Vector1_5f8ebe6d25fb42cca3b2cfe0ba5c8769: -0.26
+    - Vector1_b386b7f9cdae459e98011c377793d525: 3.66
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -149,12 +128,10 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_1db190628e7044eb9a024324adcff185: {r: 1, g: 1, b: 1, a: 0}
-    - Color_a8eb921fcf8a4174b78afbce062abc15: {r: 0.252759, g: 0.5984097, b: 0.754717, a: 0}
-    - Color_d712ce212aee47faa9b4a018ac072363: {r: 0.15294118, g: 0.5058824, b: 0.7254902, a: 0}
-    - Vector2_26d4293ccb7e458e91fd6daf0aa65497: {r: 0, g: 0.015, b: 0, a: 0}
-    - Vector2_a27056f8ddf94b968c0c238a7ba3c1cf: {r: 0, g: 1.5, b: 0, a: 0}
-    - Vector2_b7a425f4bcdf42bda02eeb793b07969e: {r: 1, g: 0.02, b: 0, a: 0}
+    - Color_93f120ea576f46a0b82927e9fed28f70: {r: 1, g: 1, b: 1, a: 1}
+    - Vector2_85fd4596cf054136a0c7329db4ffd5de: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_d0d2e4896eb1452e98f51c6e8194ac14: {r: 0, g: 0.2, b: 0, a: 0}
+    - Vector4_7aebc668982c421d95e33cf28f1e9a55: {r: 4.09, g: 16.11, b: 12.05, a: 16.57}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

@@ -41,6 +41,9 @@
         },
         {
             "m_Id": "edfbe1acec8f4ece85cfa12c865e01db"
+        },
+        {
+            "m_Id": "08c21957459f4352b5be96556e0a0b37"
         }
     ],
     "m_Keywords": [],
@@ -1235,6 +1238,29 @@
         "e31": 0.0,
         "e32": 0.0,
         "e33": 1.0
+    }
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
+    "m_ObjectId": "08c21957459f4352b5be96556e0a0b37",
+    "m_Guid": {
+        "m_GuidSerialized": "75b06ffb-f55e-4059-b080-c54dbcfa91ee"
+    },
+    "m_Name": "Foam",
+    "m_DefaultReferenceName": "Vector1_08c21957459f4352b5be96556e0a0b37",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": 0.0,
+    "m_FloatType": 0,
+    "m_RangeValues": {
+        "x": 0.0,
+        "y": 1.0
     }
 }
 
